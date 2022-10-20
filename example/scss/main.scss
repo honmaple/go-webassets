@@ -1,0 +1,13 @@
+@import 'variables';
+
+$color: red;
+
+.example {
+  padding: 0;
+  margin: 0;
+  background-color: $bg-color;
+
+  &.child {
+    background-color: $color;
+  }
+}
